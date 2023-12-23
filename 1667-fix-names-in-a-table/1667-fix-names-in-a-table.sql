@@ -1,0 +1,5 @@
+/* Write your PL/SQL query statement below */
+
+SELECT USER_ID,UPPER(SUBSTR(NAME,1,1))||LOWER(SUBSTR(NAME,2)) NAME
+FROM USERS
+ORDER BY USER_ID;
